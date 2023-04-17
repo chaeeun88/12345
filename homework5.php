@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+<form action="homework5.php" method="post">
+년(年)을 입력하세요 : <input type="number" name="y" /><br />
+월(月)을 입력하세요 : <input type="number" name="m" /><br />
+<input type="submit" value="확인" />
+</form>
 <?php
 $m = $_POST["m"];
 $y = $_POST["y"];
